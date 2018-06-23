@@ -66,7 +66,7 @@ $result = $conn->query($sql);
             " <b>Author:</b> " . $row["first_name"] . " " . $row["last_name"].
             " <b>Publisher</b> " . $row["name"]  .
             "</div>".
-            "</div>".
+            
             "</div>";
             }
             $conn->close();
